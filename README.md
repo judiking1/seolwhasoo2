@@ -17,5 +17,5 @@
 > 08.12 ~ 08.22 : 각자 만든 페이지 리액트로 전환하여 병합<br><br>
 > 기술 스택: React, JS, CSS <br><br>
 > 프로젝트 1(순수 자바스크립트) 세부내용 및 페이지 소스 보기 : https://github.com/judiking1/seolwhasoo.git <br><br>
-> 팀 프로젝트 깃허브 주소 : https://github.com/AumKyungSub/group-anyway.git
-
+> 팀 프로젝트 깃허브 주소 : https://github.com/AumKyungSub/group-anyway.git<br><br>
+> 홈페이지 주소 : https://judiking1.github.io/seolwhasoo2/
