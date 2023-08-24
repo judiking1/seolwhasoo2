@@ -1,34 +1,21 @@
-# Getting Started with Create React App
+# seolwhasoo2
+설화수 클론코딩 프로젝트2(리액트)
 
-=======
-수정은 develop 브렌치 readme에서 훗날 main으로 업데이트 하겠음  <br/>
+<h1>
+  설화수 클론코딩 프로젝트2(리액트)
+  <br>
+  (23.08.12 ~ 23.08.22)
+</h1>
 
-어쨌든 시작했조 <br/>
-그룹 프로젝트 <br/>
- <br/>
-주제: 설화수 웹 사이트 클론 코딩 <br/>
- <br/>
-----------(경섭 진행 상황)---------- <br/>
-플래그십 링크 <br/>
-: https://qnzldmad.cafe24.com/sulwhasoo/flagshipMain.html <br/>
- <br/>
-23.07.22(토) 플래그십 메인 완 <br/>
-23.07.23(일) 스크롤 애니메이션 및 도산 페이지 일부 (모바일 및 테블릿) (PC는 아직 안함) <br/>
-스크롤 애니메이션 <br/>
-: 해당 페이지에서 사용한 AOS 사용하지 않음 <br/>
-jQuery + css로 구현 했음 (리엑트에서도 jQuery 사용 가능하다 하여 난.... js 못해....) <br/>
+<h2>#1. 개요</h2>
 
-----------(효진 진행 상황)---------- <br/>
+> 순수 자바스크립트로 구현했던 프로젝트1의 설화수 클론코딩 페이지를 리액트로 전환했습니다.<br><br>
+> 07.14 ~ 07.21 : 기획서 작성<br><br>
+>(기획서 링크 : https://www.canva.com/design/DAFomO-biC8/voGdCpyZnkdjIOH70MxMlQ/view?utm_content=DAFomO-biC8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink )<br><br>
+> 07.22 ~ 07.29 : 각 *분담한 페이지 코딩<br><br>
+> *분담한 페이지: '제품', 'About설화수'<br><br>
+> 08.12 ~ 08.22 : 각자 만든 페이지 리액트로 전환하여 병합<br><br>
+> 기술 스택: React, JS, CSS <br><br>
+> 프로젝트 1(순수 자바스크립트) 세부내용 및 페이지 소스 보기 : https://github.com/judiking1/seolwhasoo.git <br><br>
+> 팀 프로젝트 깃허브 주소 : https://github.com/AumKyungSub/group-anyway.git
 
-
-----------(현연 진행 상황)---------- <br/>
-
-
-----------(수정 진행 상황)---------- <br/>
-
-
-----------(원배 진행 상황)---------- <br/>
-
-
------------------------------------ <br/>
-진행 상황은 내가 기억하려고 적는 겁니다. 적지 않아도 됩니다. (경섭) <br/>
