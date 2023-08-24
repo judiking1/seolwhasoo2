@@ -18,8 +18,8 @@ import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 function ConditionalHeader() {
   const location = useLocation();
 
-  if (location.pathname === "/seolwhasoo2") {
-    return <IndexHeader />;
+  if (location.pathname === "/") {
+    return null;
   } else {
     return <Header />;
   }
