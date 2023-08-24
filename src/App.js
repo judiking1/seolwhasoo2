@@ -13,7 +13,7 @@ import FlagshipBukchon from './contentComponent/FlagshipBukchon.js';
 import IndexHeader from "./structureComponent/index/IndexHeader.js";
 import Header from "./commonComponent/Header.js";
 import Footer from "./commonComponent/Footer.js";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 
 function ConditionalHeader() {
   const location = useLocation();
@@ -28,7 +28,7 @@ function ConditionalHeader() {
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <ConditionalHeader />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -44,7 +44,7 @@ function App() {
         <Route path="/flagshipBukchon" element={<FlagshipBukchon />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
