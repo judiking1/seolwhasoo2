@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/seolwhasoo2/static/css/main.174ae06d.css",
+    "main.js": "/seolwhasoo2/static/js/main.21c83d3f.js",
+    "static/js/787.06a1fd3a.chunk.js": "/seolwhasoo2/static/js/787.06a1fd3a.chunk.js",
+    "index.html": "/seolwhasoo2/index.html",
+    "static/media/cursor_img.webp": "/seolwhasoo2/static/media/cursor_img.c4f394e7982357b1ce2b.webp",
+    "main.174ae06d.css.map": "/seolwhasoo2/static/css/main.174ae06d.css.map",
+    "main.21c83d3f.js.map": "/seolwhasoo2/static/js/main.21c83d3f.js.map",
+    "787.06a1fd3a.chunk.js.map": "/seolwhasoo2/static/js/787.06a1fd3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.174ae06d.css",
+    "static/js/main.21c83d3f.js"
+  ]
+}
