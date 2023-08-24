@@ -56,14 +56,14 @@ function Header() {
           <div className="logo">
             <Link to="/" className="logo_a">
               <img
-                src={`${process.env.PUBLIC_URL}/images/main/sulwhasoo_white_logo.png`}
+                src={`${process.env.PUBLIC_URL}/images/main/sulwhasoo_orange_logo_220902.png`}
                 alt="설화수로고"
               ></img>
             </Link>
           </div>
           <div className="search">
             <img
-              src={`${process.env.PUBLIC_URL}/images/main/icon/search_white_icon.png`}
+              src={`${process.env.PUBLIC_URL}/images/main/icon/search_black_icon.png`}
               alt="서치아이콘"
             ></img>
           </div>
