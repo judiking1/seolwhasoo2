@@ -48,7 +48,7 @@ function SectionJourney() {
       );
       setTimeout(() => {
         ScrollTrigger.refresh();
-    }, 200);  // 100ms 뒤에 초기화
+    }, 250);  // 100ms 뒤에 초기화
     
     return () => {
       // ScrollTrigger 인스턴스 정리

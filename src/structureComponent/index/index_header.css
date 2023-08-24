@@ -303,9 +303,7 @@ body {
         display: block;
     }
     #index_header  {
-        /* padding: 20px 0 0 0; */
         padding: 20px 7% 0 7%;
-        /* padding-top: 20px; */
         z-index: 10;
         background: rgba(0, 0, 0, 0);
         transition: all .3s;
