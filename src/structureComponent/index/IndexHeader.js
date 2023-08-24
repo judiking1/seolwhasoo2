@@ -3,7 +3,7 @@ import "./index_header.css";
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
 
-const Header = styled.header`
+const HeaderHover = styled.header`
 @media screen and (min-width:1024px){
     &:hover img#language_icon {
         content: url(${process.env.PUBLIC_URL}/images/main/icon/language_arrow_black.png);
@@ -46,7 +46,7 @@ function Header() {
 
   return (
     <div>
-      <Header id="index_header">
+      <HeaderHover id="index_header">
         <div className="moblie_header_inner">
           <div className="hamburger">
             <button type="button" id="sideBar_open" onClick={toggleMenu}>
@@ -254,7 +254,7 @@ function Header() {
           </div>
           <div className="hover_border"></div>
         </div>
-      </Header>
+      </HeaderHover>
 
       <div className={`side_cover ${isOpen ? "open" : ""}`}>
         <div className={`side_header ${isOpen ? "open" : ""}`}>
