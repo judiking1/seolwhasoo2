@@ -11,14 +11,22 @@ function Gift() {
     AOS.init();
 
     // 비디오 컨트롤 관련 함수
-  const playVideoAndShowControls = (video) => {
-    video.play();
-    video.controls = true;
+    const playVideoAndShowControls = async (video) => {
+      try {
+          await video.play();
+          video.controls = true;
+      } catch (error) {
+          console.error("Error playing video:", error);
+      }
   };
-
-  const pauseVideoAndHideControls = (video) => {
-    video.pause();
-    video.controls = false;
+  
+  const pauseVideoAndHideControls = async (video) => {
+      try {
+          await video.pause();
+          video.controls = false;
+      } catch (error) {
+          console.error("Error pausing video:", error);
+      }
   };
 
   // 비디오 마우스 오버/리브 이벤트 처리
