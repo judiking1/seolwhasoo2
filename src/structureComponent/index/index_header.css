@@ -320,7 +320,7 @@ body {
         color: black;
     }
     /* GNB 호버 시 이미지 변경 */
-    #index_header:hover #language_icon {
+    /* #index_header:hover #language_icon {
         content: url('../../images/main/icon/language_arrow_black.png');
     }
 
@@ -330,7 +330,7 @@ body {
 
     #index_header:hover #search_icon {
         content: url('../../images/main/icon/search_black_icon.png');
-    }
+    } */
     #index_header .w1440 {
         max-width: 1440px;
         margin: 0 auto;

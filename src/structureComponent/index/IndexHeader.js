@@ -1,7 +1,23 @@
 import React, { useState } from "react";
 import "./index_header.css";
 import { Link } from "react-router-dom";
+import styled from 'styled-components';
 
+const Header = styled.header`
+@media screen and (min-width:1024px){
+    &:hover img#language_icon {
+        content: url(${process.env.PUBLIC_URL}/images/main/icon/language_arrow_black.png);
+    }
+
+    &:hover img#pc_orange_logo {
+        content: url(${process.env.PUBLIC_URL}/images/main/sulwhasoo_orange_logo_220902.png);
+    }
+
+    &:hover img#search_icon {
+        content: url(${process.env.PUBLIC_URL}/images/main/icon/search_black_icon.png);
+    }
+  }
+`;
 function Header() {
   const logoBg = `url(${process.env.PUBLIC_URL}/images/main/sulwhasoo_orange_logo_220902.png)`;
   const closeBtnBg = `url(${process.env.PUBLIC_URL}/images/main/icon/gnb_close.png)`;
@@ -30,7 +46,7 @@ function Header() {
 
   return (
     <div>
-      <header id="index_header">
+      <Header id="index_header">
         <div className="moblie_header_inner">
           <div className="hamburger">
             <button type="button" id="sideBar_open" onClick={toggleMenu}>
@@ -238,7 +254,7 @@ function Header() {
           </div>
           <div className="hover_border"></div>
         </div>
-      </header>
+      </Header>
 
       <div className={`side_cover ${isOpen ? "open" : ""}`}>
         <div className={`side_header ${isOpen ? "open" : ""}`}>
