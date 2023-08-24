@@ -10,8 +10,8 @@ import WithSulwhasooSec from '../structureComponent/index/WithSulwhasooSec'
 function Index() {
   return (
     <>
-        <IndexHeader/>
       <main>
+        <IndexHeader/>
         <MainSlideSec />
         <RecommendSec />
         <BestSellerSec />
