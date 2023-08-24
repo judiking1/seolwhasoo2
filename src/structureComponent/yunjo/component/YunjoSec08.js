@@ -9,8 +9,8 @@ function YunjoSec08({videoMobile, videoPc}) {
     useEffect(() => {
         const videoPlay = () => {
             const videoResizer = window.innerWidth <= '767'
-            ? "/media/yunjo_video/video_m/yunjo_video03_m.mp4"
-            : "/media/yunjo_video/video_pc/yunjo_video03_pc.mp4"
+            ? `${process.env.PUBLIC_URL}/media/yunjo_video/video_m/yunjo_video03_m.mp4`
+            : `${process.env.PUBLIC_URL}/media/yunjo_video/video_pc/yunjo_video03_pc.mp4`
             setVideoSource(videoResizer);
         };
         // 이벤트리스너

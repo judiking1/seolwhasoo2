@@ -71,6 +71,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: flex-end;
+    gap: 7.8125vw;
   }
   .ginseng-section9 .ginseng-cream-ex {
     /* 수정 */

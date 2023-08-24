@@ -10,7 +10,6 @@ function Header() {
   const [isOpen, setMenu] = useState(false);
   const toggleMenu = () => {
     setMenu(!isOpen);
-    console.log(isOpen);
   };
   const [activeIndex, setActiveIndex] = useState(-1);
   const [activeTwoDepth, setActiveTwoDepth] = useState(-1);

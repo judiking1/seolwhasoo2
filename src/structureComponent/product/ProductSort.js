@@ -25,7 +25,7 @@ function ProductSort() {
     { id: "cleansing", text: "클렌징" },
     { id: "boostessence", text: "부스트에센스" },
     { id: "skin", text: "스킨" },
-    { id: "lotion", text: "로션t" },
+    { id: "lotion", text: "로션" },
     { id: "essence_ample", text: "에센스/앰플" },
     { id: "eyecream", text: "아이크림" },
     { id: "cream", text: "크림" },
