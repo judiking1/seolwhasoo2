@@ -29,9 +29,9 @@ function YunjoSec01({videoMobile, videoPc}) {
         <p>FIRST CARE ACTIVATING SERUM VI</p>
       </div>
     </div>
-    <div className="yunjo_video01">
+    <div className="yunjo_video01" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
       <figure>
-        <video key={videoSource} loop muted autoPlay preload="auto" id="video01" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <video key={videoSource} loop muted autoPlay preload="auto" id="video01">
           <source src={videoSource} type="video/mp4"/>
         </video>
       </figure>
