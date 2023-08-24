@@ -12,7 +12,7 @@ function gift_section() {
       <div className="video_container" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">
         <div className="content_box">
           <div className="video_section">
-            <video id="video" src="./media/gift_video.mp4" loop muted preload="auto" controls></video>
+            <video id="video" src={`${process.env.PUBLIC_URL}/media/gift_video.mp4`} loop muted preload="auto" controls></video>
           </div>
           <div className="poster_img"><img src={`${process.env.PUBLIC_URL}/images/gift/sulwhasoo_gift_intro_img_01_pc_kr_230705.jpg`} alt="포스터이미지"></img></div>
           <div className="video_poster_txt">
@@ -23,7 +23,7 @@ function gift_section() {
         </div>
         <div className="content_box">
           <div className="video_section">
-            <video id="video" src="./media/gift_video02.mp4" loop muted preload="auto" controls></video>
+            <video id="video" src={`${process.env.PUBLIC_URL}/media/gift_video02.mp4`} loop muted preload="auto" controls></video>
           </div>
           <div className="poster_img"><img src={`${process.env.PUBLIC_URL}/images/gift/sulwhasoo_gift_intro_img_02_pc_kr_230705.jpg`} alt="포스터이미지"></img></div>
           <div className="video_poster_txt">

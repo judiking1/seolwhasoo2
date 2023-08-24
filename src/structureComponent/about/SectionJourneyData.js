@@ -8,7 +8,7 @@ export const JourneyData = [
     },
     {
         class: "list_item_02",
-        img: `${process.env.PUBLIC_URL}/images/about/brand_belief_content02_item02_kr_230511.jpg"`,
+        img: `${process.env.PUBLIC_URL}/images/about/brand_belief_content02_item02_kr_230511.jpg`,
         year: "1954",
         mainText: "인삼 연구의 시작",
         description: "국내 최초 화장품 연구실 설립",

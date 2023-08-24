@@ -18,7 +18,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 function ConditionalHeader() {
   const location = useLocation();
 
-  if (location.pathname === "/") {
+  if (location.pathname === "/seolwhasoo2") {
     return <IndexHeader />;
   } else {
     return <Header />;
@@ -28,7 +28,7 @@ function ConditionalHeader() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ConditionalHeader />
       <Routes>
         <Route path="/" element={<Home />} />
