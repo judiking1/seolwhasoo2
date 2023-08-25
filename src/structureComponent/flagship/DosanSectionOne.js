@@ -4,12 +4,12 @@ import styled from 'styled-components';
 
 const Section = styled.section`
 &::before {
-  background-image: url(${process.env.PUBLIC_URL}/images/flagship/bukchon/section1_bukchon_mobile.jpg);
+  background-image: url(${process.env.PUBLIC_URL}/images/flagship/dosan/section1_dosan_mobile.jpg);
 }
 
 @media only all and (min-width: 1024px) {
   &::before {
-    background-image: url(${process.env.PUBLIC_URL}/images/flagship/bukchon/section1_bukchon_pc.jpg);
+    background-image: url(${process.env.PUBLIC_URL}/images/flagship/dosan/section1_dosan_pc.jpg);
   }
 }
 `;
